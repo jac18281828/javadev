@@ -17,4 +17,4 @@ RUN echo '%jac ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 ENV JAVA_HOME=/usr/lib/jvm/default-java
 
-CMD echo "Java Dev"
+CMD java --version
