@@ -47,4 +47,3 @@ jobs:
             ${{ env.REPOSITORY_PATH }}:${{ env.REPOSITORY_SHA }}
             ${{ env.REPOSITORY_PATH }}:latest
         if: ${{ github.event_name == 'release' && github.event.action == 'created' }}
-
