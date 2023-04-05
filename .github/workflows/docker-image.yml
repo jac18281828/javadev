@@ -45,8 +45,8 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          platforms: linux/amd64,linux/arm64/v8
-          push: ${{ github.event_name == 'release' && github.event.action == 'created' }}
+          platforms: linux/amd64,linux/arm64
+          push: true
           build-args: |
             VERSION=${{ github.event.release.tag_name }}
           tags: |
