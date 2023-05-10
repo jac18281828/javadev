@@ -1,12 +1,14 @@
 FROM debian:stable-slim
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
-        apt update && \
-        apt install -y -q --no-install-recommends \
-        sudo ca-certificates curl git \
-        build-essential default-jdk maven ripgrep npm
-RUN apt clean
-RUN rm -rf /var/lib/apt/lists/*
+    apt update && \
+    apt install -y -q --no-install-recommends \
+    sudo ca-certificates curl git gnupg2 \
+    build-essential default-jdk maven ripgrep \
+    npm \ 
+    && \
+    apt clean && \
+    rm -rf /var/lib/apt/lists/*
 
 RUN npm install javadoc -g
 

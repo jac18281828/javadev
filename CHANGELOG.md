@@ -1,3 +1,7 @@
+# 1.0.4 (2023-05-10)
+
+* add gpg for commit signing in code spaces
+
 # 1.0.3 (2023-04-05)
 
 * always push from tag release
