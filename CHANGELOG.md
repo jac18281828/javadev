@@ -1,3 +1,7 @@
+# 1.0.5 (2023-06-01)
+
+* set DESCRIPTION label
+
 # 1.0.4 (2023-05-10)
 
 * add gpg for commit signing in code spaces
