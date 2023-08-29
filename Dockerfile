@@ -14,7 +14,7 @@ RUN npm install javadoc -g
 
 RUN useradd --create-home -s /bin/bash jac
 RUN usermod -a -G sudo jac
-RUN echo '%jac ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 ENV JAVA_HOME=/usr/lib/jvm/default-java
 
