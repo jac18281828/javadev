@@ -1,3 +1,7 @@
+# 1.0.7 (2024-10-09)
+
+* change user to java
+
 # 1.0.6 (2024-10-09)
 
 * latest update
