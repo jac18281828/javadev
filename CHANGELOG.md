@@ -1,3 +1,7 @@
+# 1.0.6 (2024-10-09)
+
+* latest update
+
 # 1.0.5 (2023-06-01)
 
 * set DESCRIPTION label
